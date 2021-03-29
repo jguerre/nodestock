@@ -19,6 +19,7 @@ app.get('/', function (req, res) {
     res.render('home', {stuff: otherstuff});
 });
 
+//comentario de git
 
 // Set static folder
 app.use(express.static(path.join(__dirname,'public')));
